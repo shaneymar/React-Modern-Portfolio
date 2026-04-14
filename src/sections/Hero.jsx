@@ -1,6 +1,7 @@
 import React from "react";
-import {Button} from '../components/Button'
-import { ArrowRight } from "lucide-react";
+import {Button} from '../components/Button';
+import {AnimatedBorderButton} from'../components/AnimatedBorderButton';
+import { ArrowRight, Download } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -67,7 +68,13 @@ const Hero = () => {
               <Button size="lg">
             Contact Me <ArrowRight className="w-4 h-4" />
               </Button>
+               <AnimatedBorderButton>
+                <Download className="w-5 h-5" />
+                Download CV
+              </AnimatedBorderButton>
             </div>
+
+              {/* Social Links */}
 
           </div>
           {/* Right column */}
