@@ -14,20 +14,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
+    value: "b.s.shankar31@gmail.com",
+    href: "mailto:b.s.shankar31@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+91 (965) 962 4700",
+    href: "tel:+919659624700",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
-    href: "#",
+    value: "Bangalore, India",
+    href: "https://maps.app.goo.gl/1KuWHQMaTxbb2K8E8",
   },
 ];
 
@@ -219,6 +219,7 @@ const Contact = () => {
                   <a
                     key={i}
                     href={item.href}
+                    target="_blank"
                     className="flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group"
                   >
                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">

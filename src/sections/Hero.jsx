@@ -107,12 +107,13 @@ const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: GitHubIcon, href: "https://github.com/shaneymar" },
-                { icon: LinkedInIcon, href: "#" },
+                { icon: LinkedInIcon, href: "https://www.linkedin.com/in/shankar-b-47bb98b5/" },
               
               ].map((social, idx) => (
                 <a
                   key={idx}
                   href={social.href}
+                  target="_blank"
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                   {<social.icon className="w-5 h-5" />}
